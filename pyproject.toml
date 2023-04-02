@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-backup-sync"
+version = "1.001.001"
+description = "Aplikacja do synchronizacji kopi zapasowych napisana w Python"
+authors = ["Mateusz Mocydlarz"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "py_backup_sync"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
